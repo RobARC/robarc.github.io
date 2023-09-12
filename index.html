@@ -56,27 +56,29 @@
 
   <!-- Page Content -->
   <div class="container">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-example-generic" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-example-generic" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
   
       <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-          <div class="item active">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
               <img src="./img/me.jpeg" alt="Me" width="1050" height="600">
-              <div class="carousel-caption">
-                  <span>Hi!</span>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Hi!</h5>
+                <p>Some representative placeholder content for the first slide.</p>
               </div>
           </div>
          
-          <div class="item">
+          <div class="carousel-item">
               <img src="./img/Slide1.jpg" alt="Never Stop" width="1050" height="600">
-              <div class="carousel-caption">
-                  <span>Never Stop</span>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Never Stop!</h5>
+                <p>Some representative placeholder content for the second slide.</p>
               </div>
           </div>
            <!--
