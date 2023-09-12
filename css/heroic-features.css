@@ -5,4 +5,55 @@
  */
 body {
   padding-top: 56px;
+  
 }
+
+.container-slider{
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer{
+  width: 100%;
+
+}
+
+ul, li {
+  list-style: none;
+ 
+}
+
+header{
+  padding-left: 40px;
+}
+.section-header{
+  padding-left: 22px;
+}
+
+.portafolio-section{
+  padding: 0
+}
+details{
+  padding-left: 30px;
+}
+
+.section-body{
+  padding: 0;
+}
+
+.row {
+  padding-left: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#slide2{
+  display: none;
+}
+
+#slide3{
+  display: none;
+}
+
+
