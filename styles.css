@@ -15,8 +15,9 @@
   --green: rgb(7, 237, 76);
   --blanco: white;
   /* Tipografía */
-  --tipo-principal: 'Playfair+Display', serif;
-  --tipo-secundaria: 'Inter', sans-serif;
+  --tipo-heading: 'Playfair+Display', serif;
+  --tipo-principal: 'Rubik', serif;
+  --tipo-secundaria: 'Ubuntu', sans-serif;
 }
 
 /* Las adaptamos al modo oscuro */
@@ -298,7 +299,7 @@ body {
     transition: all .1s ease;
 }
 .section .h2{
-    font-family: var(--tipo-principal);
+    font-family: var(--tipo-heading);
     padding: .6em;
     font-size: 6em;
     font-weight: 500;
@@ -393,6 +394,7 @@ body {
 .about .p{
     max-width: 40em;
     margin: 1em;
+    font-family: var(--tipo-secundaria);
     padding-right: 1em;
     font-size: 1.5em;
     text-align: justify;
@@ -457,7 +459,7 @@ body {
 
 @media screen and  (max-width: 980px) {
     .section .h2{
-        font-family: var(--tipo-principal);
+        font-family: var(--tipo-heading);
         padding: .6em;
         font-size: 4em;
         font-weight: 300;
@@ -472,7 +474,7 @@ body {
 
 @media screen and  (max-width: 650px) {
     .section .h2{
-        font-family: var(--tipo-principal);
+        font-family: var(--tipo-heading);
         padding: .6em;
         font-size: 2em;
         font-weight: 200;
