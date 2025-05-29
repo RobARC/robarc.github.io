@@ -303,9 +303,14 @@ body {
     font-size: 6em;
     font-weight: 500;
 }
-.section.blog {
+
+.blog{
   background-color: var(--blanco);
-    color: var(--negro);
+  color: var(--negro);
+}
+.section.blog {
+  padding: 40px;
+  
 }
 
 .section.blog h2 {
