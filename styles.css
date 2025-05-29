@@ -231,8 +231,7 @@ body {
 .header .h1{
     margin: 0 1em;
 }
-.header .nav{
-}
+
 .header .ul{
     display: flex;
     flex-flow: row wrap;
@@ -242,7 +241,7 @@ body {
 .header .li{
     margin: 0 1em;
 }
-.header .li .a{}
+
 
 .main{
     margin: 0 0 1em;

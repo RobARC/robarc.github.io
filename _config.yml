@@ -1,0 +1,7 @@
+title: Mi Sitio Personal
+description: Blog usando GitHub Pages + Jekyll
+theme: minima
+
+# Habilitar colecciones de posts y estructura básica
+markdown: kramdown
+permalink: pretty

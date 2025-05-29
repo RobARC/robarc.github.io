@@ -88,13 +88,38 @@
             </ul>
         </section>
     </div>
+    ---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<!-- Puedes incluir este enlace en tu menú de navegación -->
+<nav>
+  <a href="/">Inicio</a> |
+  <a href="/blog/">Blog</a>
+</nav>
+
+<div class="section blog" id="blog">
+  <h2>Blog</h2>
+
+  {% for post in site.posts %}
+    <div class="post">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="date">{{ post.date | date: "%d de %B de %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}">Leer más</a>
+    </div>
+  {% endfor %}
+</div>
+
         <div class="section works" id="works">
             <div class="h2">Projects</div>
             <div class="grid">
                 <article class="article">
                     <a href="https://github.com/RobARC/project-clarifion" target="_blank" title="trabajo13">
                         <figure class="figure">
-                            <img src="./img/clarifion.png"  width="600" height="400" alt="Image" class="img" loading="lazy">
+                            <img src="./img/clarifion.png"  width="600" height="380" alt="Image" class="img" loading="lazy">
                         </figure>
                         <h4 class="h4">Frontend Clarifion Angular HTML CSS3 JavaScript Figma</h4>
                         <a class="deployed"  href="https://project-clarifion-ihssfwq7t-rrondonc-gmailcom.vercel.app/" target="_blank" >
