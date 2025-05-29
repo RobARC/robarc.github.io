@@ -304,8 +304,8 @@ body {
     font-weight: 500;
 }
 .section.blog {
-  padding: 40px;
-  background-color: #f4f4f4;
+  background-color: var(--blanco);
+    color: var(--negro);
 }
 
 .section.blog h2 {
