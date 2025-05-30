@@ -39,4 +39,4 @@ La descripción de las acciones o tareas que la computadora debe hacer se denomi
 Por lo tanto, sin un algoritmo, no puede existir un programa. El programa es simplemente la traducción del algoritmo a un lenguaje que la computadora pueda entender.
 
 
-## 2. Características Clave de los Algoritmos:
+# 2. Características Clave de los Algoritmos:
