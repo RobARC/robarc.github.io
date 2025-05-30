@@ -12,7 +12,7 @@ En esencia, la programación es un proceso de resolución de problemas. Y para r
 
 En el mundo de la programación, los algoritmos son el corazón que impulsa toda solución computacional. 
 
-1. Concepto: ¿Qué es un Algoritmo?
+# 1. Concepto: ¿Qué es un Algoritmo?
 
 Un algoritmo es el concepto fundamental de la ciencia de las computadoras (informática).
 
@@ -38,4 +38,5 @@ La descripción de las acciones o tareas que la computadora debe hacer se denomi
 
 Por lo tanto, sin un algoritmo, no puede existir un programa. El programa es simplemente la traducción del algoritmo a un lenguaje que la computadora pueda entender.
 
-2. Características Clave de los Algoritmos:
+
+## 2. Características Clave de los Algoritmos:
