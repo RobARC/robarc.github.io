@@ -82,3 +82,10 @@ Dominar el diseño de algoritmos, unido a técnicas de programación fiables, pr
 
 Empezar por aquí, por la lógica del problema y su solución paso a paso, es el camino para convertirse en un programador eficaz.
 
+By: RobARC
+Este artículo fue redactado con asistencia de IA y revisado por mí.
+Fuentes: - Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013
+         - Programacion-Con-Visual-Basic-2008-McGraw-Hill
+         - Programación en C, C++, Java y UML by Luis Joyanes Aguilar
+         - Programming in C 3rd edition by Stephen G. Kochan
+         - Aprenda a pensar como un programador con python by Allen Downey,Jeffrey Elkner,Chris Meyers
