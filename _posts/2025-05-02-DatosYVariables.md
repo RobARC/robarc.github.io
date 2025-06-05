@@ -103,5 +103,9 @@ En la programación orientada a objetos (como en C++ y Java), una clase es un ti
 
 En conclusión, aunque la sintaxis y algunos detalles específicos (como el manejo de tipos de valor/referencia o la declaración explícita) varían significativamente entre C, C#, C++, Java, VB y Python, el concepto central de usar variables con un tipo asociado para manejar datos es fundamental en todos ellos. Dominar cómo declarar, asignar y entender los tipos de datos en cada lenguaje es uno de los primeros y más cruciales pasos para aprender a programar.
 
-Nos vemos en la proxima entrega: **Sé el Cerebro de tu Programa: Dirige el Flujo con Decisiones y Repeticiones"**.
+Próximamente un taller práctico sobre estos dos primeras entregas, en los diferentes lenguajes VB, C#, C, C++, Java y Python.
+
+Y en la proxima entrega: **Sé el Cerebro de tu Programa: Dirige el Flujo con Decisiones y Repeticiones"**.
+
+**"Never give up!"**
 
