@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programar: Más Allá del Código, Una Forma de Pensar"
-date: 2025-06-23 00:00:00 +0000
+date: 2025-06-23
 description: "Antes de aprender un lenguaje de programación, entiende qué significa realmente programar y por qué es una forma de pensar, no solo una habilidad técnica."
 ---
 
