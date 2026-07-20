@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 720" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="720" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Inicio -->
+  <ellipse cx="260" cy="45" rx="70" ry="32" fill="#e8f0fe" stroke="#2c5cc5" stroke-width="2"/>
+  <text x="260" y="51" text-anchor="middle" font-size="16" fill="#1a1a1a">Inicio</text>
+  <line x1="260" y1="77" x2="260" y2="120" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- Entrada -->
+  <polygon points="190,120 350,120 330,170 210,170" fill="#fef7e0" stroke="#b8860b" stroke-width="2"/>
+  <text x="260" y="150" text-anchor="middle" font-size="15" fill="#1a1a1a">Leer número</text>
+  <line x1="260" y1="170" x2="260" y2="210" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- Proceso -->
+  <rect x="150" y="210" width="220" height="55" rx="4" fill="#e6f4ea" stroke="#1e7e34" stroke-width="2"/>
+  <text x="260" y="243" text-anchor="middle" font-size="15" fill="#1a1a1a">residuo = número MOD 2</text>
+  <line x1="260" y1="265" x2="260" y2="305" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- Decisión -->
+  <polygon points="260,300 380,375 260,450 140,375" fill="#fbe9e7" stroke="#c0392b" stroke-width="2"/>
+  <text x="260" y="370" text-anchor="middle" font-size="14" fill="#1a1a1a">¿residuo</text>
+  <text x="260" y="390" text-anchor="middle" font-size="14" fill="#1a1a1a">es igual a 0?</text>
+
+  <!-- Si -->
+  <line x1="380" y1="375" x2="440" y2="375" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="405" y="365" text-anchor="middle" font-size="13" fill="#444">Sí</text>
+  <line x1="440" y1="375" x2="440" y2="500" stroke="#333" stroke-width="2"/>
+  <line x1="440" y1="500" x2="330" y2="500" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- No -->
+  <line x1="260" y1="450" x2="260" y2="500" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="275" y="475" text-anchor="middle" font-size="13" fill="#444">No</text>
+
+  <!-- Salida Par -->
+  <polygon points="270,500 410,500 390,550 250,550" fill="#fef7e0" stroke="#b8860b" stroke-width="2"/>
+  <text x="330" y="530" text-anchor="middle" font-size="14" fill="#1a1a1a">Mostrar "Par"</text>
+
+  <!-- Salida Impar -->
+  <polygon points="30,500 190,500 170,550 50,550" fill="#fef7e0" stroke="#b8860b" stroke-width="2"/>
+  <text x="110" y="530" text-anchor="middle" font-size="14" fill="#1a1a1a">Mostrar "Impar"</text>
+
+  <!-- Join lines to Fin -->
+  <line x1="330" y1="550" x2="330" y2="590" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="550" x2="110" y2="590" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="590" x2="330" y2="590" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="590" x2="260" y2="625" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- Fin -->
+  <ellipse cx="260" cy="665" rx="70" ry="32" fill="#e8f0fe" stroke="#2c5cc5" stroke-width="2"/>
+  <text x="260" y="671" text-anchor="middle" font-size="16" fill="#1a1a1a">Fin</text>
+
+  <text x="260" y="710" text-anchor="middle" font-size="12" fill="#888">Diagrama de flujo: ¿Número par o impar? — RobARC</text>
+</svg>

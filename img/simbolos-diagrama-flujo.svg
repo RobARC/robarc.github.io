@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="260" fill="#ffffff"/>
+
+  <!-- Oval: Inicio/Fin -->
+  <g>
+    <ellipse cx="90" cy="70" rx="70" ry="34" fill="#e8f0fe" stroke="#2c5cc5" stroke-width="2"/>
+    <text x="90" y="76" text-anchor="middle" font-size="15" fill="#1a1a1a">Inicio / Fin</text>
+    <text x="90" y="140" text-anchor="middle" font-size="13" fill="#444">Óvalo</text>
+  </g>
+
+  <!-- Parallelogram: Entrada/Salida -->
+  <g>
+    <polygon points="270,50 400,50 380,90 250,90" fill="#fef7e0" stroke="#b8860b" stroke-width="2"/>
+    <text x="325" y="75" text-anchor="middle" font-size="15" fill="#1a1a1a">Entrada / Salida</text>
+    <text x="325" y="140" text-anchor="middle" font-size="13" fill="#444">Paralelogramo</text>
+  </g>
+
+  <!-- Rectangle: Proceso -->
+  <g>
+    <rect x="480" y="45" width="140" height="50" rx="4" fill="#e6f4ea" stroke="#1e7e34" stroke-width="2"/>
+    <text x="550" y="76" text-anchor="middle" font-size="15" fill="#1a1a1a">Proceso</text>
+    <text x="550" y="140" text-anchor="middle" font-size="13" fill="#444">Rectángulo</text>
+  </g>
+
+  <!-- Diamond: Decision -->
+  <g>
+    <polygon points="770,30 850,70 770,110 690,70" fill="#fbe9e7" stroke="#c0392b" stroke-width="2"/>
+    <text x="770" y="75" text-anchor="middle" font-size="15" fill="#1a1a1a">Decisión</text>
+    <text x="770" y="140" text-anchor="middle" font-size="13" fill="#444">Rombo</text>
+  </g>
+
+  <!-- Arrow example -->
+  <g>
+    <line x1="60" y1="190" x2="220" y2="190" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="140" y="215" text-anchor="middle" font-size="13" fill="#444">Flecha: dirección del flujo</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="245" text-anchor="middle" font-size="12" fill="#888">Símbolos estándar de un diagrama de flujo — RobARC</text>
+</svg>
