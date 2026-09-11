@@ -5,8 +5,6 @@ date: 2026-08-23
 categories: fundamentos-programacion
 ---
 
-# Entrada y Salida de Datos
-
 Hasta ahora hemos hablado de variables, constantes, operadores y expresiones: las piezas que le dan a un programa su capacidad de "pensar". Pero un programa que solo piensa para sí mismo no sirve de mucho. Para que sea útil, necesita **comunicarse**: recibir información del mundo exterior y devolver resultados. A eso le llamamos Entrada y Salida de Datos (I/O, por sus siglas en inglés: *Input/Output*).
 
 ## ¿Qué es la entrada y qué es la salida?
