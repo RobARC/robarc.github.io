@@ -76,6 +76,19 @@ else:
     print("Eres menor de edad")
 ```
 
+```csharp
+// C#
+int edad = 17;
+if (edad >= 18)
+{
+    Console.WriteLine("Eres mayor de edad");
+}
+else
+{
+    Console.WriteLine("Eres menor de edad");
+}
+```
+
 ## 6. Conclusión
 
 Los condicionales son el primer paso para que un programa deje de ser una simple lista de instrucciones y empiece a comportarse como algo inteligente: algo que reacciona según el contexto. En el próximo capítulo veremos los **operadores lógicos**, que nos permiten combinar varias condiciones en una sola decisión.
