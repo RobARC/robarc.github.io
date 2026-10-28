@@ -2,6 +2,7 @@
 layout: post
 title: "Constantes: El Valor Que Nunca Cambia"
 date: 2026-07-29
+chapter: 7
 description: "Descubre qué es una constante, en qué se diferencia de una variable, y cómo declararla correctamente en distintos lenguajes de programación."
 ---
 

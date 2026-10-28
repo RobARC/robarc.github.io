@@ -2,6 +2,7 @@
 layout: post
 title: "Expresiones: Cuando los Operadores se Ponen a Trabajar Juntos"
 date: 2026-08-10
+chapter: 9
 description: "Descubre qué es una expresión, cómo se combinan variables, constantes y operadores para producir un resultado, y por qué el orden de evaluación (precedencia) puede cambiarlo todo."
 ---
 

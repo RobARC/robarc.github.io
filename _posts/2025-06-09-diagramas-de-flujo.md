@@ -2,6 +2,7 @@
 layout: post
 title: "Diagramas de Flujo: Dibuja Tu Lógica Antes de Programarla"
 date: 2025-06-09
+chapter: 3
 description: "Descubre qué es un diagrama de flujo, sus símbolos estándar y por qué es la herramienta clave para diseñar tu lógica antes de escribir código."
 ---
 

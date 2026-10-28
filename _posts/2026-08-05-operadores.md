@@ -2,6 +2,7 @@
 layout: post
 title: "Operadores: Los Símbolos que Hacen Trabajar tus Datos"
 date: 2026-08-05
+chapter: 8
 description: "Descubre qué son los operadores aritméticos, de asignación y relacionales, y cómo se combinan con las variables y constantes para que tu programa realmente haga algo."
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Pseudocódigo: El Idioma Que Hablan Todos los Programadores"
 date: 2025-06-16
+chapter: 4
 description: "Aprende qué es el pseudocódigo, su estructura básica y cómo se relaciona con el algoritmo y el diagrama de flujo para diseñar soluciones antes de programar."
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "El Algoritmo: El Corazón Lógico de la Programación"
 date: 2025-05-28
+chapter: 2
 excerpt: "Explora cómo los algoritmos forman la base del pensamiento computacional y son el motor lógico detrás de cada programa."
 ---
 ¡Bienvenido/a a nuestro blog! Empezamos un viaje para explorar los principios fundamentales que rigen el fascinante mundo de la programación.

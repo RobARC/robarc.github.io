@@ -2,6 +2,8 @@
 layout: post
 title: "Condicionales: Enseñando a tu Programa a Decidir"
 date: 2026-09-11
+chapter: 11
+redirect_from: /fundamentos-de-programacion/2026/09/11/condicionales/
 categories: [fundamentos-de-programacion]
 tags: [condicionales, control-de-flujo, pseudocodigo, javascript, python]
 description: "Descubre cómo los condicionales le permiten a un programa tomar decisiones y ejecutar distintos caminos según se cumpla o no una condición."

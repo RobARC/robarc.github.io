@@ -2,6 +2,8 @@
 layout: post
 title: "Variables y Tipos de Datos: Tus Primeros Superpoderes para Entender y Manejar Datos"
 date: 2025-06-02
+chapter: 5
+chapter_label: "5 y 6"
 excerpt: " Las variables son donde se almacenan los datos y los tipos dictan cómo esos datos son interpretados y estructurados permitiendonos su correcta manipulación."
 ---
 

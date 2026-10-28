@@ -2,6 +2,8 @@
 layout: post
 title: "Entrada y Salida de Datos"
 date: 2026-08-23
+chapter: 10
+redirect_from: /fundamentos-programacion/2026/08/23/entrada-y-salida/
 categories: fundamentos-programacion
 ---
 

@@ -4,4 +4,9 @@ theme: minima
 
 # Habilitar colecciones de posts y estructura básica
 markdown: kramdown
-permalink: pretty
+# Sin categorías en la URL: los enlaces compartidos en LinkedIn usan /año/mes/día/título/
+permalink: /:year/:month/:day/:title/
+
+# Mantiene funcionando las direcciones viejas con categoría
+plugins:
+  - jekyll-redirect-from
